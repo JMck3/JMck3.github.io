@@ -240,7 +240,7 @@ h3 {
 .child1, .child2, .child3, .child4, .child5, .child6 {
     background: whitesmoke;
     border: 1px solid goldenrod;
-    padding: 5%;
+    padding: 1%;
     margin-top: 3%;
     width: 200px;
     height: 200px;
