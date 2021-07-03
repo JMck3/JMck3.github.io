@@ -152,11 +152,19 @@ footer {
 
 /* CONTACT CSS */
 
+form img {
+    display: flex;
+    height: 30vh;
+    margin-left: 5%;
+    border: 5px solid goldenrod;
+}
+
 .form-item {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 5px;
+    margin: 3%;
 }
 
 .form-item label {
@@ -239,7 +247,7 @@ h3 {
 
 .child1, .child2, .child3, .child4, .child5, .child6 {
     background: whitesmoke;
-    border: 1px solid goldenrod;
+    border: 3px solid goldenrod;
     padding: 1%;
     margin-top: 3%;
     width: 200px;
