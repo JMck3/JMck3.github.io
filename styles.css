@@ -152,6 +152,13 @@ footer {
 
 /* CONTACT CSS */
 
+form img {
+    display: flex;
+    height: 30vh;
+    margin-left: 5%;
+    border: 5px solid goldenrod;
+}
+
 .form-item {
     display: flex;
     justify-content: flex-start;
