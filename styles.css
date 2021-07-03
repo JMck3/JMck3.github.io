@@ -157,6 +157,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 5px;
+    margin: 3%;
 }
 
 .form-item label {
