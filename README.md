@@ -15,6 +15,7 @@ In my Portfolio I have incorporated use of:
 <li>a functional contact form</li>
 <li>an about me page with an area for me to add information on future projects!</li>
 <li>use of semantic HTML</li>
+<li>screenshots provided for your information</li>
 <br>
 I hope to incorporate javascript elements in the future but not mandatory for this first project.
 <br>
