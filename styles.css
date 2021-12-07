@@ -1,116 +1,126 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #4b6cb7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #182848, hsl(222, 43%, 51%), #182848); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  font-family: "Poppins", sans-serif;
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    hsl(222, 43%, 51%),
+    #182848
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* HEADER CSS */
 header {
-    display: flex;
-    width: 90%;
-    height: 9vh;
-    margin: auto;   
-    align-items: center; 
+  display: flex;
+  width: 90%;
+  height: 9vh;
+  margin: auto;
+  align-items: center;
 }
 
 .logo-container {
-    display: flex;
-    width: 60px;
-    height: 60px;
+  display: flex;
+  width: 60px;
+  height: 60px;
 }
 
 .logo-container img {
-    border-radius: 50%;
-    border: 1px solid goldenrod;
-    background-color: whitesmoke;
-    margin-top: 10%;
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+  background-color: whitesmoke;
+  margin-top: 10%;
 }
 
-.logo-container, .nav-links {
-    display: flex;
+.logo-container,
+.nav-links {
+  display: flex;
 }
 
 nav {
-    flex: 1;
+  flex: 1;
 }
 
-.nav-links { 
-    justify-content: flex-end;
-    list-style: none;
+.nav-links {
+  justify-content: flex-end;
+  list-style: none;
 }
 
 .nav-link {
-    color: whitesmoke;   
-    font-size: 15px;
-    text-decoration: none; 
-    padding-left: 15px;
-    padding-right: 15px;
-    /* border-left: 2px solid whitesmoke; */
+  color: whitesmoke;
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border-left: 2px solid whitesmoke; */
 }
 
 #nav-link-selected {
-    color: goldenrod;
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none; 
-    padding-left: 15px;
-    padding-right: 15px;
-    /* border-left: 2px solid goldenrod; */
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border-left: 2px solid goldenrod; */
 }
 
 .linegap {
-    font-size: 20px;
-    color: whitesmoke;
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 /* SECTION CSS */
 .presentation {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    min-height: 80vh; 
-    justify-content: space-between;
-    align-items: center;  
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cover {
-    flex: 1;
-    align-self: center;
-    margin: 3%;
+  flex: 1;
+  align-self: center;
+  margin: 3%;
 }
 
-.cover img { 
-    height: 60vh;
-    border-radius: 50%;
-    border: 10px solid goldenrod;
-    margin: 3%;
+.cover img {
+  height: 60vh;
+  border-radius: 50%;
+  border: 10px solid goldenrod;
+  margin: 3%;
 }
 
 .introduction {
-    flex: 1;
-    justify-content: center;
-    align-items: center;    
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-text h1 {
-    font-size: 150%;
-    font-weight: bold;
-    color: whitesmoke;
+  font-size: 150%;
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 .intro-text p {
-    margin: 8%;
-    padding: 10px 20px 20px 10px;
-    font-size: 22px;
-    color: whitesmoke;
-    text-align: center;
+  margin: 8%;
+  padding: 10px 20px 20px 10px;
+  font-size: 22px;
+  color: whitesmoke;
+  text-align: center;
 }
 
 /* BUTTON CSS - IF NEEDED 
@@ -146,115 +156,117 @@ button {
 
 /* FOOTER */
 footer {
-    color: whitesmoke;
-    text-align: center;
+  color: whitesmoke;
+  text-align: center;
 }
 
 /* CONTACT CSS */
 
 form img {
-    display: flex;
-    height: 30vh;
-    margin-left: 5%;
-    border: 5px solid goldenrod;
+  display: flex;
+  height: 30vh;
+  margin-left: 5%;
+  border: 5px solid goldenrod;
 }
 
 .form-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 5px;
-    margin: 3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 3%;
 }
 
 .form-item label {
-    flex-basis: 100px;
-    font-size: 18px;
-    color: whitesmoke;
+  flex-basis: 100px;
+  font-size: 18px;
+  color: whitesmoke;
 }
 
 .form-item input,
 .form-item textarea {
-    flex-basis: 50%;
-    border: 2px solid #FDDC5C;
+  flex-basis: 50%;
+  border: 2px solid #fddc5c;
 }
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid goldenrod;
-    cursor: pointer;
+  border: 2px solid goldenrod;
+  cursor: pointer;
 }
 
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 2px solid #FDDC5C;
-    background-color: whitesmoke;
-    padding: 5px;
-    font-size: 18px;
+  border: 2px solid #fddc5c;
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 18px;
 }
 
 .form-item button:hover {
-    border: 4px solid goldenrod;
-    background-color: goldenrod;
-    color: whitesmoke;
-    cursor: pointer;
+  border: 4px solid goldenrod;
+  background-color: goldenrod;
+  color: whitesmoke;
+  cursor: pointer;
 }
 
 .form-item button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 /* About Me */
 .about-text {
-    color: whitesmoke;
-    font-size: 18px;
-    text-align: center;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
 }
 
 p {
-    margin: 5%;
+  margin: 5%;
 }
 
 h2 {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
 }
 
 h3 {
-    font-size: 20px;    
-    font-style: italic;
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 10px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
 }
 
 .parent {
-    margin: 2%;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    place-content: space-around;
+  margin: 2%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  place-content: space-around;
 }
 
-.child1, .child2, .child3, .child4, .child5, .child6 {
-    background: whitesmoke;
-    border: 3px solid goldenrod;
-    padding: 1%;
-    margin-top: 3%;
-    width: 200px;
-    height: 200px;
+.child1,
+.child2,
+.child3,
+.child4,
+.child5,
+.child6 {
+  background: whitesmoke;
+  border: 3px solid goldenrod;
+  margin-top: 3%;
+  width: 200px;
+  height: 200px;
 }
-
-
 
 /* Added in case I want to update individual boxes
 .child1 { 
@@ -283,26 +295,26 @@ h3 {
   */
 
 @media screen and (max-width: 1024px) {
-    .presentation {
-        flex-direction: column;
-        flex: 50%;
-        align-items: center;
-    }
-
-    .cover img {
-        height: 40vh;
-    }   
-
-    .logo-container {
-        display: none;
-    }
-
-    .nav-links {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    p {
-        font-size: 70%;
-    }
+  .presentation {
+    flex-direction: column;
+    flex: 50%;
+    align-items: center;
   }
+
+  .cover img {
+    height: 40vh;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  p {
+    font-size: 70%;
+  }
+}
